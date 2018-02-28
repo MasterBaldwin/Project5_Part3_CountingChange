@@ -26,7 +26,7 @@ public static void main(String[] args) {
     panel.add(numOfPenniesText);
 
     for (int i = 0; i < 2; i++) {
-        if (GetCoins() == value) {
+        if (getCoins() == value) {
             JOptionPane.showMessageDialog(null, "Yes");
             return;
         }
@@ -34,7 +34,7 @@ public static void main(String[] args) {
     }
 }
 
-private static int GetCoins() {
+private static int getCoins() {
     int confirmCode, numOfDimes, numOfNickles, numOfPennies;
 
     numOfDimesText.setText("");
